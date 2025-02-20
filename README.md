@@ -150,7 +150,45 @@ Em seguida, selecione **Concluído**.
  This is an old hotel (has been around since 1950's) and the room furnishings are average - becoming a bit old now and require changing. The internet didn't work and had to come to one of their office rooms to check in for my flight home. The website says it's close to the British Museum, but it's too far to walk.
 ```
 
+6 - Marque a caixa para confirmar que a demonstração incorrerá em uso e poderá incorrer em custos e, em seguida, selecione **Executar**.
 
+7 - Revise a saída. Observe que o (*)documento(*) é analisado quanto ao sentimento, assim como cada (*)frase(*). Selecione **Frase** 1 para mostrar a análise de sentimento para essa frase.
+
+Observe que há um sentimento geral seguido por pontuações ao lado de três categorias, (*)pontuação positiva(*), (*)pontuação neutra(*), (*)pontuação negativa(*). Em cada uma das categorias, uma pontuação entre 0 e 1 é fornecida. Essas pontuações de confiança indicam a probabilidade de o texto fornecido ser um sentimento específico.
+
+Selecione **Frase** 1 novamente para fechar.
+
+1 - Role para cima para selecionar **Limpar caixa de texto** e copie e cole a seguinte revisão:
+
+```código
+ Good Hotel and staff
+ The Royal Hotel, London, UK
+ 3/2/2018
+ Clean rooms, good service, great location near Buckingham Palace and Westminster Abbey, and so on. We thoroughly enjoyed our stay. The courtyard is very peaceful and we went to a restaurant which is part of the same group and is Indian ( West coast so plenty of fish) with a Michelin Star. We had the taster menu which was fabulous. The rooms were very well appointed with a kitchen, lounge, bedroom and enormous bathroom. Thoroughly recommended.
+```
+
+2 - Selecione **Executar** . Revise a saída e revise o sentimento e o nível de confiança.
+
+3 - Selecione **Limpar** caixa de texto novamente e copie e cole a seguinte revisão:
+
+
+
+
+
+4 - Selecione **Run** e revise o sentimento junto com o nível de confiança. Dê uma olhada no texto e compare-o com a análise de sentimento que o serviço retornou.
+
+Neste exercício, você usou o Language Studio para criar um novo recurso de idioma ou usar um recurso de idioma existente. Você habilitou o recurso em Configurações antes de experimentar o serviço de mineração de opinião e sentimento. Em seguida, você testou o serviço com três partes de texto.
+
+#### Limpar
+
+Se você não pretende fazer mais exercícios, exclua quaisquer recursos que não precise mais. Isso evita acumular custos desnecessários.
+
+1 - Abra o [**portal do Azure**](https://portal.azure.com) e selecione o grupo de recursos que contém o recurso que você criou.
+2 - Selecione o recurso e selecione **Delete** e depois **Yes** para confirmar. O recurso é então excluído.
+
+#### Saber mais
+
+Para saber mais sobre o que você pode fazer com este serviço, consulte a [página Serviço de idiomas](https://learn.microsoft.com/pt-br/azure/ai-services/language-service/overview).
 
 [**Fonte**](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/06-text-analysis.html)
 
