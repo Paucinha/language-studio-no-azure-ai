@@ -16,12 +16,12 @@ Você pode usar muitos recursos de Linguagem do Azure AI com um recurso **de Lin
 
 3 - Na página **Criar idioma**, configure-o com as seguintes configurações:
 
-- **Assinatura:** sua assinatura do Azure .
-- **Grupo de recursos:** selecione ou crie um grupo de recursos com um nome exclusivo.
-- **Região:** Selecione a região geográfica mais próxima. Se estiver no leste dos EUA, use “East US 2”.
-- **Nome:** Insira um nome exclusivo.
-- **Nível de preço:** Free F0 ou S se Free F0 não estiver disponível.
-- **Ao marcar esta caixa, reconheço que li e compreendi todos os termos abaixo:** Selecionado.
+- **Assinatura:** (*)sua assinatura do Azure(*).
+- **Grupo de recursos:** (*)selecione ou crie um grupo de recursos com um nome exclusivo(*).
+- **Região:** (*)Selecione a região geográfica mais próxima. Se estiver no leste dos EUA, use “East US 2”(*).
+- **Nome:** (*)Insira um nome exclusivo(*).
+- **Nível de preço:** (*)Free F0 ou S se Free F0 não estiver disponível(*).
+- **Ao marcar esta caixa, reconheço que li e compreendi todos os termos abaixo:** (*)Selecionado(*).
   
 4 - Selecione **Revisar + criar** e depois **Criar** e aguarde a conclusão da implantação.
 
@@ -126,12 +126,16 @@ Você pode usar muitos recursos de Linguagem do Azure AI com um recurso **de Lin
 
 2 - Quando solicitado a selecionar um recurso do Azure , faça as seguintes configurações:
 
-- **Diretório do Azure:** Diretório padrão, o diretório que você está usando
-- **Assinatura do Azure:** Selecione a assinatura que você está usando
+- **Diretório do Azure:** (*)Diretório padrão, o diretório que você está usando(*)
+- **Assinatura do Azure:** (*)Selecione a assinatura que você está usando(*)
 - **Tipo de recurso:** Idioma
-- **Nome do recurso:** selecione o recurso de serviço de idioma que você acabou de criar
+- **Nome do recurso:** (*)selecione o recurso de serviço de idioma que você acabou de criar(*)
   
 Em seguida, selecione **Concluído**.
+
+![Concluído 1](https://github.com/Paucinha/language-studio-no-azure-ai/blob/master/inputs/Conclu%C3%ADdo.png)
+
+![Concluído 2](https://github.com/Paucinha/language-studio-no-azure-ai/blob/master/inputs/Conclu%C3%ADdo%202.png)
 
 #### Analisar avaliações no Language Studio
 
@@ -173,11 +177,7 @@ Selecione **Frase** 1 novamente para fechar.
 
 3 - Selecione **Limpar** caixa de texto novamente e copie e cole a seguinte revisão:
 
-![Limpar](https://img.shields.io/github/license/Paucinha/api-ecommerce-dio?style=flat-square)
-
-
-
-
+![Limpar](https://github.com/Paucinha/language-studio-no-azure-ai/blob/master/inputs/Limpar.png?raw=true)
 
 4 - Selecione **Run** e revise o sentimento junto com o nível de confiança. Dê uma olhada no texto e compare-o com a análise de sentimento que o serviço retornou.
 
