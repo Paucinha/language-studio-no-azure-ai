@@ -12,14 +12,16 @@ Você pode usar muitos recursos de Linguagem do Azure AI com um recurso **de Lin
 
 2 - Clique no botão **＋Criar um recurso** e pesquise por Serviço de idioma. Selecione **criar** um plano de **serviço de idioma**. Você será levado para uma página para **Selecionar recursos adicionais**. Mantenha a seleção padrão e clique em **Continuar para criar seu recurso**.
 
-Na página Criar idioma , configure-o com as seguintes configurações:
-Assinatura : sua assinatura do Azure .
-Grupo de recursos : selecione ou crie um grupo de recursos com um nome exclusivo .
-Região : Selecione a região geográfica mais próxima. Se estiver no leste dos EUA, use “East US 2” .
-Nome : Insira um nome exclusivo .
-Nível de preço : Free F0 ou S se Free F0 não estiver disponível
-Ao marcar esta caixa, reconheço que li e compreendi todos os termos abaixo : Selecionado .
-Selecione Revisar + criar e depois Criar e aguarde a conclusão da implantação.
+3 - Na página **Criar idioma**, configure-o com as seguintes configurações:
+
+- **Assinatura:** sua assinatura do Azure .
+- **Grupo de recursos:** selecione ou crie um grupo de recursos com um nome exclusivo.
+- **Região:** Selecione a região geográfica mais próxima. Se estiver no leste dos EUA, use “East US 2”.
+- **Nome:** Insira um nome exclusivo.
+- **Nível de preço:** Free F0 ou S se Free F0 não estiver disponível.
+- **Ao marcar esta caixa, reconheço que li e compreendi todos os termos abaixo:** Selecionado.
+  
+4 - Selecione **Revisar + criar** e depois **Criar** e aguarde a conclusão da implantação.
 
 ```json
 {
@@ -133,7 +135,7 @@ Em seguida, selecione **Concluído**.
 
 
 
-
+Fonte: https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/06-text-analysis.html
 ##
 
 Projeto desenvolvido durante o [**Bootcamp Bradesco - Java Cloud Native**](https://www.dio.me/bootcamp/bradesco-java-cloud-native), fornecido pela [**DIO**](https://www.dio.me/)
