@@ -133,9 +133,27 @@ Em seguida, selecione **Concluído**.
 
 #### Analisar avaliações no Language Studio
 
+1 - Em um navegador da Web, navegue até o [**Language Studio**](https://language.cognitive.azure.com).
+
+2 - Na página inicial **Bem-vindo ao Language Studio**, selecione a aba **Classificar texto** e depois selecione o bloco **Analisar sentimento e extrair opiniões**7 .
+
+3 - Em Selecionar (*)idioma do texto(*), selecione **Inglês**.
+
+4 - Em Selecione (*)seu recurso do Azure(*), selecione seu recurso.
+
+5 - Em (*)Insira seu próprio texto, carregue um arquivo ou use um de nossos textos de exemplo(*), copie e cole a seguinte análise:
+
+```código
+ Tired hotel with poor service
+ The Royal Hotel, London, United Kingdom
+ 5/6/2018
+ This is an old hotel (has been around since 1950's) and the room furnishings are average - becoming a bit old now and require changing. The internet didn't work and had to come to one of their office rooms to check in for my flight home. The website says it's close to the British Museum, but it's too far to walk.
+```
 
 
-Fonte: https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/06-text-analysis.html
+
+[**Fonte**](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/06-text-analysis.html)
+
 ##
 
 Projeto desenvolvido durante o [**Bootcamp Bradesco - Java Cloud Native**](https://www.dio.me/bootcamp/bradesco-java-cloud-native), fornecido pela [**DIO**](https://www.dio.me/)
