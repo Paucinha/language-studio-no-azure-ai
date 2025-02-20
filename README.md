@@ -1,5 +1,7 @@
 # Análise de Sentimentos com Language Studio no Azure AI
 
+![GitHub](https://img.shields.io/github/license/Paucinha/api-ecommerce-dio?style=flat-square)
+
 Neste LAB, exploraremos o uso do Azure Speech Studio e a análise linguística proporcionada pelo Language Studio. Durante a prática, teremos a oportunidade de aprofundar nosso entendimento sobre como aproveitar essas ferramentas avançadas da Microsoft Azure. Estaremos focados em aprimorar nossas habilidades na implementação de soluções de análise de fala e linguagem, abrindo portas para uma compreensão mais ampla e prática das capacidades oferecidas por essas tecnologias inovadoras.
 
 **Inteligência Artificial (IA) | Full-Stack | Básico**
@@ -170,6 +172,8 @@ Selecione **Frase** 1 novamente para fechar.
 2 - Selecione **Executar** . Revise a saída e revise o sentimento e o nível de confiança.
 
 3 - Selecione **Limpar** caixa de texto novamente e copie e cole a seguinte revisão:
+
+![Limpar](https://img.shields.io/github/license/Paucinha/api-ecommerce-dio?style=flat-square)
 
 
 
