@@ -4,13 +4,22 @@ Neste LAB, exploraremos o uso do Azure Speech Studio e a análise linguística p
 
 **Inteligência Artificial (IA) | Full-Stack | Básico**
 
-#### Criação um recurso de idioma
+#### Criar um recurso de idioma
 
-Você pode usar muitos recursos de Linguagem do Azure AI com um recurso de Linguagem ou de serviços do Azure AI . Há algumas instâncias em que apenas um recurso de Linguagem pode ser usado. Para o exercício abaixo, usaremos um recurso de Linguagem . Se você ainda não fez isso, crie um recurso de Linguagem na sua assinatura do Azure.
+Você pode usar muitos recursos de Linguagem do Azure AI com um recurso **de Linguagem** ou **de serviços do Azure AI**. Há algumas instâncias em que apenas um recurso de Linguagem pode ser usado. Para o exercício abaixo, usaremos um recurso **de Linguagem**. Se você ainda não fez isso, crie um recurso **de Linguagem na sua assinatura do Azure.
 
-Em outra aba do navegador, abra o [portal do Azure](https://portal.azure.com), entrando com a conta da Microsoft associada à sua assinatura do Azure.
+1 - Em outra aba do navegador, abra o [**portal do Azure**](https://portal.azure.com), entrando com a conta da Microsoft associada à sua assinatura do Azure.
 
-Clique no botão ＋Criar um recurso e pesquise por Serviço de idioma. Selecione criar um plano de serviço de idioma. Você será levado para uma página para Selecionar recursos adicionais. Mantenha a seleção padrão e clique em Continuar para criar seu recurso.
+2 - Clique no botão **＋Criar um recurso** e pesquise por Serviço de idioma. Selecione **criar** um plano de **serviço de idioma**. Você será levado para uma página para **Selecionar recursos adicionais**. Mantenha a seleção padrão e clique em **Continuar para criar seu recurso**.
+
+Na página Criar idioma , configure-o com as seguintes configurações:
+Assinatura : sua assinatura do Azure .
+Grupo de recursos : selecione ou crie um grupo de recursos com um nome exclusivo .
+Região : Selecione a região geográfica mais próxima. Se estiver no leste dos EUA, use “East US 2” .
+Nome : Insira um nome exclusivo .
+Nível de preço : Free F0 ou S se Free F0 não estiver disponível
+Ao marcar esta caixa, reconheço que li e compreendi todos os termos abaixo : Selecionado .
+Selecione Revisar + criar e depois Criar e aguarde a conclusão da implantação.
 
 ```json
 {
@@ -109,15 +118,20 @@ Clique no botão ＋Criar um recurso e pesquise por Serviço de idioma. Selecion
 
 #### Configure seu recurso no Azure AI Language Studio
 
-1 - Em outra aba do navegador, abra o [Language Studio](https://language.cognitive.azure.com) e faça login.
+1 - Em outra aba do navegador, abra o [**Language Studio**](https://language.cognitive.azure.com) e faça login.
 
 2 - Quando solicitado a selecionar um recurso do Azure , faça as seguintes configurações:
 
-Diretório do Azure : Diretório padrão, o diretório que você está usando
-Assinatura do Azure : Selecione a assinatura que você está usando
-Tipo de recurso : Idioma
-Nome do recurso : selecione o recurso de serviço de idioma que você acabou de criar
-Em seguida, selecione Concluído .
+- **Diretório do Azure:** Diretório padrão, o diretório que você está usando
+- **Assinatura do Azure:** Selecione a assinatura que você está usando
+- **Tipo de recurso:** Idioma
+- **Nome do recurso:** selecione o recurso de serviço de idioma que você acabou de criar
+  
+Em seguida, selecione **Concluído**.
+
+#### Analisar avaliações no Language Studio
+
+
 
 
 ##
