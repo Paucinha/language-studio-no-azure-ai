@@ -112,7 +112,7 @@ Você pode usar muitos recursos de Linguagem do Azure AI com um recurso **de Lin
         "createdBy": "seunome@email.com",
         "createdByType": "User",
         "createdAt": "2025-02-20T19:29:43.1679772Z",
-        "lastModifiedBy": seunome@email.com",
+        "lastModifiedBy": "seunome@email.com",
         "lastModifiedByType": "User",
         "lastModifiedAt": "2025-02-20T19:29:43.1679772Z"
     },
