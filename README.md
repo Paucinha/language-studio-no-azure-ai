@@ -109,10 +109,10 @@ Você pode usar muitos recursos de Linguagem do Azure AI com um recurso **de Lin
         "type": "SystemAssigned"
     },
     "systemData": {
-        "createdBy": "paucia.renan@gmail.com",
+        "createdBy": "seunome@email.com",
         "createdByType": "User",
         "createdAt": "2025-02-20T19:29:43.1679772Z",
-        "lastModifiedBy": "paucia.renan@gmail.com",
+        "lastModifiedBy": seunome@email.com",
         "lastModifiedByType": "User",
         "lastModifiedAt": "2025-02-20T19:29:43.1679772Z"
     },
